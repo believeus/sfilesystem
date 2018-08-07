@@ -26,6 +26,7 @@ public class Log {
 	static{
 		try {
 			System.out.println(logpath);
+			System.out.println("Hello world");
 			logout=new FileWriter(logpath);
 			File file=new File(logpath);
 			file.createNewFile();
