@@ -25,6 +25,7 @@ public class Log {
 	
 	static{
 		try {
+			System.out.println(logpath);
 			logout=new FileWriter(logpath);
 			File file=new File(logpath);
 			file.createNewFile();
