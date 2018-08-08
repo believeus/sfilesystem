@@ -1,4 +1,4 @@
-package cn.believeus.entity;
+package cn.believeus.mydfs;
 
 import java.io.File;
 import java.io.FileWriter;
